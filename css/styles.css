@@ -4,21 +4,19 @@ body {
 }
 
 .home__navbar {
-    background-color: red;
+    background-color: #FF7F30;
     position:fixed;
     width: 100vw;
     z-index: 100;
 }
 
 .home__navbar-links {
-    background-color: blue;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .home__navbar-link {
-    background-color: yellow;
     display: inline-block;
     font-weight: 600;
     border-radius: 30px;
@@ -27,6 +25,8 @@ body {
     margin: 20px 20px;
     text-decoration: none;
     width: 8rem;
+    color:#5C0F8B;
+    background-color: #fff;
 }
 
 .home__portrait {
@@ -47,9 +47,9 @@ body {
     right: 5%;
 }
 
-.home__contact-img {
+.home__contact-img--portrait {
     width: 4rem;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .home__start-btn-container {
@@ -60,7 +60,8 @@ body {
 
 .home__start-link {
     text-decoration: none;
-    background-color: rgb(243, 127, 243);
+    background-color: #3BD4AE;
+    color: #fff;
     padding:15px 25px;
     width: 15%;
     border-radius: 30px;
@@ -73,6 +74,7 @@ body {
 
 .home__section-title{
   font-size: 3.5rem;
+  color:#FF7F30;
   margin: 6rem 0 4rem 0;
   font-family: 'Franklin Gothic Demi Cond',
   arial;
@@ -103,6 +105,8 @@ body {
 }
 
 .home__service-header {
+    color:#FF7F30;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.6rem;    
     line-height: 30px;
     margin-bottom: -10px;
@@ -120,7 +124,8 @@ body {
 }
 
 .home__footer{
-  background-color: blueviolet;
+  color:#fff;
+  background-color: #5C0F8B;
 }
 
 .home__footer-container{
@@ -152,6 +157,8 @@ body {
 }
 
 .home__contact-description{
+    align-self: center;
+    color:#fff;
   margin-left: 2rem;
   width: 200px;
   text-align: left;
