@@ -36,6 +36,7 @@ body {
 .home__portrait-img {
     margin-top: 50px;
     width: 100vw;
+    margin-bottom: 0;
 }
 
 .home__contact-links {
@@ -63,4 +64,75 @@ body {
     width: 15%;
     border-radius: 30px;
     font-weight: 600;
+}
+
+.home__article{
+  text-align: center;
+}
+
+.home__section-title{
+  font-size: 3.5rem;
+  margin: 6rem 0 4rem 0;
+}
+
+.home__article-container{
+  display: flex;
+  width:70%;
+  margin: auto;
+  margin-bottom: 4rem;;
+}
+
+.home__article-individual{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  border: 1px solid black;
+  margin: 1rem;
+  padding: .5rem;
+}
+
+.home__service-img{
+  border-radius: 50%;
+}
+
+.home__service-img{
+  width: 80%;
+}
+
+.home__video{
+  width: 100%;
+}
+
+.home__map{
+
+  display: block;
+  width: 100%;
+}
+
+.home__footer{
+  background-color: blueviolet;
+}
+
+.home__footer-container{
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+
+.home__footer-individual{
+  width: 50%;
+}
+
+.home__contact-link{
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__contact-description{
+  margin-left: 2rem;
+  width: 200px;
 }
