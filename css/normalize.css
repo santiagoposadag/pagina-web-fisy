@@ -22,17 +22,20 @@
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 html{
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.6rem;
+  /* font-size: 1.6rem; */
   line-height: 2;
 }
 
