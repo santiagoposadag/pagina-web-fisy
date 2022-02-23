@@ -13,13 +13,61 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;800&display=swap" rel="stylesheet">
   <link href="https://allfont.es/allfont.css?fonts=franklin-gothic-demi-cond" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/contacto.css">
   <link rel="stylesheet" href="./css/normalize.css">
   <title>Contacto</title>
 </head>
 <body>
-  <h1>Contacto</h1>
-  <a href="./index.html">Index</a>
+  <nav class="contacto__navbar">
+    <section class="contacto__navbar-links">
+      <a class="contacto__navbar-link" href="./index.html">Home</a>
+      <a class="contacto__navbar-link" href="./somos.html">Somos</a>
+      <a class="contacto__navbar-link" href="./sevicios.html">Servicios</a>
+      <a class="contacto__navbar-link" href="./experiencia.html">Experiencia</a>
+      <a class="contacto__navbar-link" href="./contacto.html">Contacto</a>
+    </section>
+  </nav>
+  <div class="contenedor_contenio_principal">
+    <div class="contenedor-formulario-logo">
+      <img src="./assets/logo/2.png" alt="logo-fisy">
+      <div class="contenedor-formulario">
+        <h1>Contáctanos</h1>
+        <form id="formulario-contacto">
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre">
+          <label for="numero">Número</label>
+          <input type="text" name="numero">
+          <label for="correo">Correo</label>
+          <input type="text" name="correo">
+          <label for="comentario">Comentario</label>
+          <textarea name="comentario"></textarea>
+          <submit id="envio-formulario-btn">Enviar</submit>
+        </form>
+      </div>
+    </div>
+    <div class="contenedor-imagen-servicio">
+      <img src="./assets/servicio-al-cliente/1.png" alt="imagen-servicio-al-cliente">
+    </div>
+    <div class="contendor-iconos">
+      <img src="./assets/iconos/1.png" alt="icono-wpp">
+      <img src="./assets/iconos/3.png" alt="icono-instagram">
+      <img src="./assets/iconos/5.png" alt="icono-facebook">
+    </div>
+  </div>
+  <footer class="footer__contacto">
+    <div class="footer__contacto-correo">
+      <span>Centralfisy@gmail.com</span>
+      <img src="./assets/iconos/7.png" alt="imagen-correo">
+    </div>
+    <div class="footer__contacto-wpp">
+      <span>3027140813</span>
+      <img src="./assets/iconos/1.png" alt="imagen-wpp">
+    </div>
+    <div class="footer__contacto-ubicacion">
+      <span>Medellín, Colombia.</span>
+      <img src="./assets/iconos/8.png" alt="imagen-ubicacion">
+    </div>
+  </footer>
   <script src="./js/app.js" type="module"></script>
 </body>
 </html>
