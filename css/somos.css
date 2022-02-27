@@ -1,0 +1,47 @@
+.somos__branch-small-img {
+  width: 50%;
+}
+
+.somos__somos-btn-container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  top: 5%;
+  margin-top: 40px;
+  bottom: unset;
+  left: 1%;
+  justify-content: center;
+  align-items: center;
+}
+
+.somos__somos-start-link {
+  width: 50%;
+  padding: 4px;
+  min-width: 120px;
+  margin-top: -5px;
+}
+
+.somos__somos-description-container {
+  position: absolute;
+  top: 20%;
+  left: 6%;
+  /* background-color: green; */
+  width: 60%;
+  left: 20%;
+  color: #fff;
+  text-align: justify;
+}
+
+.somos__branch-large-img {
+  width: 30%;
+  margin: auto 35%;
+  margin-bottom: -40px;
+}
+
+@media (max-width: 1100px) {
+  .somos__somos-description-container {
+    width: 80%;
+    left: 10%;
+    font-size: 13px;
+  }
+}
