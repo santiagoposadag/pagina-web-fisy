@@ -1,6 +1,14 @@
-body {
-  /* height: 100vh; */
+.somos__portrait {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
 }
+
+.somos__article {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .somos__navbar {
   background-color: #021d49;
 }
@@ -32,7 +40,7 @@ body {
 
 .somos__somos-description-container {
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 6%;
   /* background-color: green; */
   width: 60%;
