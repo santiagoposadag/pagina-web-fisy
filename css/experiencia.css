@@ -1,0 +1,36 @@
+.experience__portrait-img {
+  height: 100vh;
+  margin-top: -30px;
+}
+
+.experiencia__navbar {
+  background-color: #021d49;
+}
+
+.experiencia__description-container {
+  position: absolute;
+  top: 35%;
+  /* background-color: green; */
+  width: 60%;
+  left: 6%;
+  color: #fff;
+  text-align: left;
+}
+
+.experiencia__description-title {
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.experiencie__go-down-container {
+  height: 50px;
+}
+
+.experience__go-down-btn {
+  position: absolute;
+  bottom: -35px;
+  padding: 10px 22px;
+  background-color: #021d49;
+  border-radius: 50%;
+  font-size: 60px;
+}
