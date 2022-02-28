@@ -64,12 +64,12 @@ body {
 
 /* Slider */
 .container-slider {
-  width: 700px;
+  width: calc(var(--screen-width) / 3);
   /* max-width: 980px; */
   margin: auto;
+  margin-left: 0px;
   /* overflow: hidden; */
   position: relative;
-  border-radius: 5px;
 }
 
 .slider {
@@ -89,22 +89,21 @@ body {
   color: #333;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   cursor: pointer;
 }
 
 .slider__btn--right {
-  right: -24px;
+  right: -103%;
 }
 
 .slider__btn--left {
-  left: -15px;
+  left: 97%;
 }
 
 .slider__btn:hover {
   color: #555;
-  font-size: 32px;
 }
 
 .slider__img {
