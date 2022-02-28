@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="./css/somos.css" />
   <link rel="stylesheet" href="./css/experiencia.css" />
   <link rel="stylesheet" href="./css/normalize.css" />
-  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/servicios.css">
   <link rel="stylesheet" href="./css/contacto.css">
   <title>Contacto</title>
 </head>
@@ -37,15 +37,15 @@
       <div class="contenedor-formulario">
         <h1>Contáctanos</h1>
         <form id="formulario-contacto">
-          <label for="nombre">Nombre</label>
-          <input type="text" name="nombre">
-          <label for="numero">Número</label>
-          <input type="text" name="numero">
-          <label for="correo">Correo</label>
-          <input type="text" name="correo">
-          <label for="comentario">Comentario</label>
-          <textarea name="comentario"></textarea>
-          <submit id="envio-formulario-btn">Enviar</submit>
+          <label class="form__label" for="nombre">Nombre</label>
+          <input class="form__input" type="text" name="nombre">
+          <label class="form__label" for="numero">Número</label>
+          <input class="form__input" type="text" name="numero">
+          <label class="form__label" for="correo">Correo</label>
+          <input class="form__input" type="text" name="correo">
+          <label class="form__label" for="comentario">Comentario</label>
+          <textarea class="form__textarea" name="comentario"></textarea>
+          <button class="submit__btn-contacto">Enviar</button>
         </form>
       </div>
     </div>
@@ -58,18 +58,20 @@
       <img src="./assets/iconos/5.png" alt="icono-facebook">
     </div>
   </div>
-  <footer class="footer__contacto">
-    <div class="footer__contacto-correo">
-      <span>Centralfisy@gmail.com</span>
-      <img src="./assets/iconos/7.png" alt="imagen-correo">
-    </div>
-    <div class="footer__contacto-wpp">
-      <span>3027140813</span>
-      <img src="./assets/iconos/1.png" alt="imagen-wpp">
-    </div>
-    <div class="footer__contacto-ubicacion">
-      <span>Medellín, Colombia.</span>
-      <img src="./assets/iconos/8.png" alt="imagen-ubicacion">
+  <footer>
+    <div class="servicos__footer-contender">
+      <div class="footer__email footer__img-letters">
+        <img src="./assets/iconos/7.png" alt="email">
+        <p>Centralfisy@gmail.com</p>
+      </div>
+      <div class="footer__wpp footer__img-letters">
+        <img src="./assets/iconos/1.png" alt="wpp">
+        <p>3027140813</p>
+      </div>
+      <div class="footer__ubicacion footer__img-letters">
+        <img src="./assets/iconos/8.png" alt="ubicacion">
+        <p>Medellín</p>
+      </div>
     </div>
   </footer>
   <script src="./js/app.js" type="module"></script>
