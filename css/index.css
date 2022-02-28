@@ -84,6 +84,7 @@ body {
   color: #ff7f30;
   margin: 6rem 0 4rem 0;
   font-family: "Franklin Gothic Demi Cond", arial;
+  font-weight: 100 !important;
 }
 
 .home__article-container {
