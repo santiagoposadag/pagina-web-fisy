@@ -53,7 +53,7 @@
       </section>
     </nav>
     <article class="home__article">
-      <section class="home__portrait">
+      <section class="home__portrait experience__article">
         <img
           class="home__portrait-img experience__portrait-img"
           src="./assets/Banner/2.jpg"
@@ -68,11 +68,11 @@
           >
         </div>
 
-        <div class="experiencia__description-container">
-          <h1 class="experiencia__description-title">
+        <div class="experience__description-container">
+          <h1 class="experience__description-title">
             LOREM IPSUM DOLOR SIT AMET SED DIAM
           </h1>
-          <p class="experiencia__description-description">
+          <p class="experience__description-description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
             quam placeat porro nobis sint? Minus officia reiciendis quaerat
             excepturi.
@@ -80,8 +80,8 @@
         </div>
         <div class="somos__contact-links">
           <a
-            class="somos__contact-link experiencie__go-down-container"
-            href="#"
+            class="somos__contact-link experience__go-down-container"
+            href="#experience__go-down-target"
           >
             <i
               class="fas fa-angle-down experience__go-down-btn"
@@ -91,6 +91,74 @@
         </div>
       </section>
     </article>
+    <article class="experience__article">
+      <video
+        class="home__video"
+        id="experience__go-down-target"
+        autoplay="true"
+        loop="true"
+        muted="true"
+        src="./assets/otros/pexels-nothing-ahead-10505868.mp4"
+      ></video>
+    </article>
+
+    <article class="experience__article">
+      <h2 class="home__section-title experience__section-title">GALERÍA</h2>
+      <div class="container-slider">
+        <div class="slider" id="slider">
+          <div class="slider__section">
+            <img
+              src="./assets/slider/slider-img-01.jpg"
+              alt="certificado-Udemy"
+              class="slider__img"
+            />
+          </div>
+          <div class="slider__section">
+            <img
+              src="./assets/slider/slider-img-02.jpg"
+              alt="certificado-Udemy"
+              class="slider__img"
+            />
+          </div>
+          <div class="slider__section">
+            <img
+              src="./assets/slider/slider-img-03.jpg"
+              alt="certificado-Udemy"
+              class="slider__img"
+            />
+          </div>
+          <div class="slider__section">
+            <img
+              src="./assets/slider/slider-img-04.jpg"
+              alt="certificado-Udemy"
+              class="slider__img"
+            />
+          </div>
+          <div class="slider__section">
+            <img
+              src="./assets/slider/slider-img-05.jpg"
+              alt="certificado-Udemy"
+              class="slider__img"
+            />
+          </div>
+          <div class="slider__section">
+            <img
+              src="./assets/slider/slider-img-05.jpg"
+              alt="certificado-Udemy"
+              class="slider__img"
+            />
+          </div>
+        </div>
+        <div class="slider__btn slider__btn--right" id="btn-right">
+          <i class="fas fa-chevron-circle-right"></i>
+        </div>
+        <div class="slider__btn slider__btn--left" id="btn-left">
+          <i class="fas fa-chevron-circle-left"></i>
+        </div>
+      </div>
+    </article>
+
     <script src="./js/app.js" type="module"></script>
+    <script src="./js/slider.js" type="module"></script>
   </body>
 </html>
