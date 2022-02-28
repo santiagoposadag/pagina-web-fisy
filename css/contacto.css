@@ -1,3 +1,15 @@
 body {
   background-color: aqua;
 }
+
+.contacto__navbar{
+  background-color: #3BD4AE;
+}
+
+.contacto__navbar-link{
+  color: #3BD4AE;
+}
+
+.contenedor_contenio_principal{
+  display: flex;
+}
