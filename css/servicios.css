@@ -14,16 +14,37 @@
   margin-top: 6rem;
 }
 
-.carta{
+.carta{ 
+  margin: 3rem 0 3rem 0;
+  flex-basis: 33%;
+  border: 1px solid black;
+}
+.carta__titulo{
+  color: white;
+  padding: .4rem;
+  text-align: center;
+}
 
+.carta__titulo h3{
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.carta__descripcion{
+  width: 80%;
+  margin: auto;
+}
+.carta__precio{
+  text-align: center;
 }
 
 .primer__contenedor{
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
 .primer__contenedor h2{
+  margin:0;
   text-align: center;
 }
 
@@ -31,11 +52,72 @@
   display: flex;
 }
 
+.carta__tres-uno{
+  border: 1px solid #FF7F30;
+}
+
+.carta__tres-uno .carta__titulo{
+  background-color: #270089;
+}
+
+.carta__tres-dos{
+  border: 1px solid #FF7F30;
+}
+
+.carta__tres-dos .carta__titulo{
+  background-color: #FF7F30;
+}
+
 .segundo__contenedor{
-  width: 65%;
+  width: 50%;
   margin: auto;
+}
+
+.segundo__contenedor h2{
+  text-align: center;
+  margin: 0;
 }
 
 .contenedor__carta-dos{
   display: flex;
 }
+
+.carta__dos{
+  flex-basis: 50%;
+}
+
+.contenedor__carta-uno{
+  display: flex;
+  flex-direction: column;
+}
+
+.carta__uno{
+  flex-basis: 100%;
+}
+
+footer{
+  background-color: #021D49;
+}
+.servicos__footer-contender{
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
+
+.footer__img-letters{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.footer__img-letters img{
+  height: 3rem;
+  margin: 0 .8rem 0 .8rem;
+}
+
+.footer__img-letters p{
+  color: white;
+  font-size: 1rem;}
+
