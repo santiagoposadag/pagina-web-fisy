@@ -8,6 +8,9 @@ h1{
 
 .contacto__navbar{
   background-color: #3BD4AE;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100vw;
 }
 
 .contacto__navbar-link{
@@ -67,7 +70,8 @@ h1{
   border-style: none;
   width: 80%;
   border-radius: 8px;
-  height: 4rem;
+  max-height: 4rem;
+  max-width: 6rem;
 }
 
 .submit__btn-contacto{
