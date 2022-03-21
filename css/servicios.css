@@ -11,16 +11,11 @@
 
 .contenedor__logo-servicios img{
   margin-top: 4rem;
-  width: 10rem;
+  width: 13rem;
 }
 
-.contenedor__logo-servicios p{
-  color:#270089;
-  width: 75%;
-  background-color: white;
-  border-radius: 15px;
-  text-align: center;
-  font-weight: 600;
+body{
+  position: relative;
 }
 
 h1{
@@ -182,5 +177,131 @@ footer{
 
 .footer__img-letters p{
   color: white;
-  font-size: 1rem;}
+  font-size: 1rem;
+}
+
+.mobile__nav{
+  display: none;
+}
+
+.titulo__mobil{
+  display: none;
+}
+
+@media (max-width: 900px){
+  .home__navbar-links{
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .servicios__navbar{
+    display: none;
+  }
+
+  .mobile__nav{
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    z-index: 1;
+    background-color: #021D49;
+  }
+
+  .mobile__nav div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: .2rem;
+    position: relative;
+    margin-right: 1rem;
+    right: 0;
+    height: 100%;
+    width: 10%;
+    min-width: 55px;
+  }
+
+  .mobile__nav div div{
+    width: 90%;
+    margin: .1rem auto;
+    height: 3px;
+    background-color: aliceblue;
+  }
+
+  .titulo__mobil{
+    display: block;
+    position: fixed;
+    margin: auto;
+    z-index: 10;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .titulo__mobil h3{
+    margin: 1vh auto;
+    background-color: #fff;
+    font-weight: 600;
+    color: #5c0f8b;
+    width: 8rem;
+    border-radius: 16px;
+  }
+  .contenedor__banner{
+    height: 70vh;
+  }
+
+  .contenedor__logo-servicios{
+    margin-left: 5rem;
+  }
+  .contenedor__logo-servicios img{
+    width: 180px;
+  }
+
+  .contenedor__slogan-servicios h1{
+    font-size: 2rem;
+  }
+
+  .servicios__contact-link{
+    height: 35px;
+  }
+
+  .servicios__go-down-container{
+    height: 40px;
+  }
+
+  .contenedor__carta-tres{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedor__carta-dos{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .primer__contenedor{
+    width: 80%;
+  }
+
+  .segundo__contenedor{
+    width: 80%;
+  }
+
+  .servicos__footer-contender{
+    flex-wrap: wrap;
+    width: 95%;
+  }
+  .footer__img-letters{
+    width: 95%;
+  }
+
+  .footer__img-letters img{
+    height: 2rem;
+    margin: 0 .8rem 0 .8rem;
+  }
+  
+  .footer__img-letters p{
+    color: white;
+    font-size: 1rem;
+  }
+}
 
