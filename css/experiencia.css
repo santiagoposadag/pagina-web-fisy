@@ -62,53 +62,106 @@ body {
   /* margin-bottom: px !important; */
 }
 
-/* Slider */
-.container-slider {
-  width: calc(var(--screen-width) / 3);
-  /* max-width: 980px; */
-  margin: auto;
-  margin-left: 0px;
-  /* overflow: hidden; */
+
+/* CAROUSEL */
+
+/* .slider__main-container {
+  width: 100% !important;
+  background-color: red;
+} */
+.carousel__contenedor {
   position: relative;
 }
 
-.slider {
-  height: 60vh;
+.carousel__anterior,
+.carousel__siguiente {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: calc(50% - 35px);
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  background: none;
+  color: #fff;
+  opacity: 20%;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+  opacity: 100%;
+}
+
+.carousel__anterior {
+  left: -30px;
+}
+
+.carousel__siguiente {
+  right: -30px;
+}
+
+.carousel__lista {
+  overflow: hidden;
+}
+
+.carousel__elemento {
+  text-align: center;
+  margin-right: 5px;
+  border-radius: 10px;
+  border: 1px solid lightgr;
+}
+
+.carousel__indicadores .glider-dot {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background: rgb(150, 148, 148);
+  opacity: .2;
+  border-radius: 0;
+}
+
+.carousel__indicadores .glider-dot:hover {
+  opacity: .5;
+}
+
+.carousel__indicadores .glider-dot.active {
+  opacity: 1;
+}
+
+.experience__img-container {
+  display: flex;  
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;  
+  width: 98%;
+}
+
+.experience__img-item {
+margin: 5px;
+width: 30vw;
+height: 30vw;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.experiencia__contact-links {
+  background-color: #021d49;
+  padding: 5px 0px;
+  width: 100%;
+  position: absolute;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  width: 600%;
-  /* margin-left: -100%; */
+  justify-content: center;
+  align-items: center; 
 }
 
-.slider__btn {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  background: transparent;
-  color: #333;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 40px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.slider__btn--right {
-  right: -103%;
-}
-
-.slider__btn--left {
-  left: 97%;
-}
-
-.slider__btn:hover {
-  color: #555;
-}
-
-.slider__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
+@media (max-width: 900px) {
+  .experiencia__branch-small-img {
+    width: 150%;
+    margin-left: 100px;
+  }
 }

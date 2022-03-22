@@ -37,11 +37,13 @@
   <link rel="stylesheet" href="./css/somos.css" />
   <link rel="stylesheet" href="./css/experiencia.css" />
   <link rel="stylesheet" href="./css/servicios.css" />
-    <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/index.css" />
     <title>Home</title>
   </head>
   <body>
-    <nav class="home__navbar">
+    <div class="mobile-navbar__background">
+    </div>
+    <nav class="home__navbar servicios__navbar">
       <section class="home__navbar-links">
         <a
           class="home__navbar-link home__navbar-link-active"
@@ -54,6 +56,14 @@
         <a class="home__navbar-link" href="./contacto.html">Contacto</a>
       </section>
     </nav>
+    <nav class="mobile__nav">
+      <div class="contenedor__menu-rayas">
+        <i class="fas fa-bars mobile__nav-icon"></i>
+      </div>
+    </nav>
+    <div class="titulo__mobil">
+      <h3>Home</h3>
+    </div>
     <article class="home__article">
       <section class="home__portrait">
         <img
@@ -170,9 +180,6 @@
         muted="true"
         src="./assets/otros/pexels-nothing-ahead-10505868.mp4"
       ></video>
-      <a href="https://maps.app.goo.gl/bf18ETNEnNMa6Rzi9" target="_blank">
-        <img class="home__map" src="./assets/otros/fake-map.png" alt="" />
-      </a>
     </section>
     <footer class="home__article home__footer">
       <div class="home__footer-container">
@@ -224,5 +231,6 @@
       </div>
     </footer>
     <script src="./js/app.js" type="module"></script>
+     <script src="./js/responsiveNavbar.js"></script>
   </body>
 </html>

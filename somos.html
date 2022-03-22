@@ -25,14 +25,22 @@
       href="https://allfont.es/allfont.css?fonts=franklin-gothic-demi-cond"
       rel="stylesheet"
       type="text/css"
-    />
-    <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/somos.css" />
+      />
+    <script
+      src=" https://kit.fontawesome.com/927fa126a7.js"
+      crossorigin="anonymous"
+      async
+    ></script>
     <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/servicios.css">
+    <link rel="stylesheet" href="./css/somos.css" />
     <title>Somos</title>
   </head>
   <body>
-    <nav class="home__navbar somos__navbar">
+    <div class="mobile-navbar__background">
+    </div>
+    <nav class="home__navbar somos__navbar servicios__navbar">
       <section class="home__navbar-links">
         <a class="home__navbar-link" href="./index.html">Home</a>
         <a
@@ -45,6 +53,14 @@
         <a class="home__navbar-link" href="./contacto.html">Contacto</a>
       </section>
     </nav>
+    <nav class="mobile__nav">
+      <div class="contenedor__menu-rayas">
+        <i class="fas fa-bars mobile__nav-icon"></i>
+      </div>
+    </nav>
+    <div class="titulo__mobil">
+      <h3>Somos</h3>
+    </div>
     <article class="home__article somos__article">
       <section class="home__portrait somos__portrait">
         <img
@@ -53,14 +69,14 @@
           alt="Banner #3"
         />
 
-        <div class="home__start-btn-container somos__somos-btn-container">
+        <!-- <div class="home__start-btn-container somos__somos-btn-container">
           <img src="./assets/logo/1.png" class="somos__branch-small-img" />
           <a
             class="home__start-link somos__somos-start-link"
             href="./somos.html"
             >Somos</a
           >
-        </div>
+        </div> -->
         <div class="somos__somos-description-container">
           <img src="./assets/logo/2.png" class="somos__branch-large-img" />
           <p>
@@ -114,5 +130,6 @@
       </section>
     </article>
     <script src="./js/app.js" type="module"></script>
+     <script src="./js/responsiveNavbar.js"></script>
   </body>
 </html>

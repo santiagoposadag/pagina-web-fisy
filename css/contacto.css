@@ -99,6 +99,13 @@ h1{
 footer{
   background-color: #3BD4AE;
 }
+.titulo__mobil h3 {
+  color: #3BD4AE;
+}
+.mobile__nav {
+  background-color:#3BD4AE;
+}
+
 
 @media (max-width: 1100px){
   .contenedor-imagen-servicio img{
@@ -109,3 +116,4 @@ footer{
     width: 50px;
   }
 }
+
