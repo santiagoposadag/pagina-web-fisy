@@ -7,7 +7,7 @@ body {
 }
 
 .experience__portrait-img {
-  height: 100vh;
+  height: 80vh;
   margin-top: -50px;
 }
 
@@ -160,10 +160,6 @@ background-repeat: no-repeat;
 }
 
 @media (max-width: 900px) {
-  .home__portrait {
-    height: 100vh;
-    overflow-y:hidden;
-  }
 
   .experiencia__branch-small-img {
     width: 150%;
@@ -195,8 +191,30 @@ background-repeat: no-repeat;
     align-items:flex-start;
   }
 
-  .experience__article {
-    width: 100vw;
+  .carousel {
     overflow-x: hidden;
+  }
+
+  .carousel__contenedor {
+    width: 100% !important;
+    margin-left: 0.7%;
+  }
+
+  .experience__img-item {
+    width: 90vw;
+    height: 90vw;
+  }
+
+  .experience__go-down-container {
+    height: 50px;
+  }
+
+  .experience__go-down-btn {
+    position: absolute;
+    bottom: -35px;
+    padding: 10px 22px;
+    background-color: #021d49;
+    border-radius: 50%;
+    font-size: 60px;
   }
 }
