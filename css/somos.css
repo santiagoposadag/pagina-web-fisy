@@ -1,7 +1,11 @@
 .somos__portrait {
+  background-image: url(./../assets/Banner/3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
   position: relative;
   height: 100vh;
   overflow: hidden;
+  background-size: cover;
 }
 
 .somos__article {
@@ -87,10 +91,25 @@
 }
 
 /* Media queries */
-@media (max-width: 1100px) {
+@media (max-width: 900px) {
   .somos__somos-description-container {
     width: 80%;
     left: 10%;
     font-size: 13px;
+  }
+
+  .somos__branch-large-img {
+    width: 60%;
+    margin: auto 20%;
+    margin-bottom: -40px;
+  }
+
+  #somos__description {
+    font-size: 17px !important;
+    line-height: 23px;
+  }
+
+  .somos__footer {
+
   }
 }
