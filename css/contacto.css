@@ -19,6 +19,7 @@ h1{
 
 .contenedor_contenio_principal{
   display: flex;
+  justify-content: space-around;
   background-image: url(../assets/Banner/4.jpg);
   align-items: center;
   min-height: 100vh;
@@ -35,22 +36,27 @@ h1{
   width: 10rem;
 }
 
-
+.contenedor__servicio-logos{
+  display: flex;
+  justify-content: space-around;
+}
 .contenedor-imagen-servicio{
   flex-basis: 50%;
 }
 
 .contenedor-imagen-servicio img{
-  width: 100%;
+  width: 490px;
 }
 
 .contendor-iconos{
   flex-basis: 15%;
+  display: flex;
+  flex-direction: column;
   padding: 0rem 2rem;
 }
 
 .contendor-iconos img{
-  width: 100%;
+  width: 64px;
 }
 
 .form__label{
@@ -92,4 +98,14 @@ h1{
 
 footer{
   background-color: #3BD4AE;
+}
+
+@media (max-width: 1100px){
+  .contenedor-imagen-servicio img{
+    width: 340px;
+  }
+  
+  .contendor-iconos img{
+    width: 50px;
+  }
 }

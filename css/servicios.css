@@ -195,7 +195,7 @@ footer{
   }
 
   .servicios__navbar{
-    display: none;
+    /* display: none; */
   }
 
   .mobile__nav{
@@ -302,6 +302,10 @@ footer{
   .footer__img-letters p{
     color: white;
     font-size: 1rem;
+  }
+
+  .mobile__nav{
+    display: none;
   }
 }
 
