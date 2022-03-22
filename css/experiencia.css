@@ -158,3 +158,10 @@ background-repeat: no-repeat;
   justify-content: center;
   align-items: center; 
 }
+
+@media (max-width: 900px) {
+  .experiencia__branch-small-img {
+    width: 150%;
+    margin-left: 100px;
+  }
+}
