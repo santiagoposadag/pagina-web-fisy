@@ -37,11 +37,13 @@
   <link rel="stylesheet" href="./css/somos.css" />
   <link rel="stylesheet" href="./css/experiencia.css" />
   <link rel="stylesheet" href="./css/servicios.css" />
-    <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="./css/index.css" />
     <title>Home</title>
   </head>
   <body>
-    <nav class="home__navbar">
+    <div class="mobile-navbar__background">
+    </div>
+    <nav class="home__navbar servicios__navbar">
       <section class="home__navbar-links">
         <a
           class="home__navbar-link home__navbar-link-active"
@@ -54,6 +56,14 @@
         <a class="home__navbar-link" href="./contacto.html">Contacto</a>
       </section>
     </nav>
+    <nav class="mobile__nav">
+      <div class="contenedor__menu-rayas">
+        <i class="fas fa-bars mobile__nav-icon"></i>
+      </div>
+    </nav>
+    <div class="titulo__mobil">
+      <h3>Servicios</h3>
+    </div>
     <article class="home__article">
       <section class="home__portrait">
         <img

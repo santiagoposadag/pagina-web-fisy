@@ -93,3 +93,11 @@ h1{
 footer{
   background-color: #3BD4AE;
 }
+
+.mobile__nav {
+  background-color:#3BD4AE;
+}
+
+.titulo__mobil h3 {
+  color: #3BD4AE;
+}
