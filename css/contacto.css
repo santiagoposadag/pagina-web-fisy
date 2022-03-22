@@ -16,13 +16,20 @@ h1{
 .contacto__navbar-link{
   color: #3BD4AE;
 }
+.contenedor_principal{
+  background-image: url(../assets/Banner/4.jpg);
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.logo__fisy-mobile{
+  display: none;
+}
 
 .contenedor_contenio_principal{
   display: flex;
   justify-content: space-around;
-  background-image: url(../assets/Banner/4.jpg);
   align-items: center;
-  min-height: 100vh;
 }
 
 .contenedor-formulario-logo{
@@ -74,10 +81,9 @@ h1{
 .form__textarea{
   display: block;
   border-style: none;
-  width: 80%;
+  max-width: 80%;
   border-radius: 8px;
   max-height: 4rem;
-  max-width: 6rem;
 }
 
 .submit__btn-contacto{
@@ -114,6 +120,52 @@ footer{
   
   .contendor-iconos img{
     width: 50px;
+  }
+}
+
+@media (max-width: 900px){
+  .logo__fisy-mobile{
+    display: block;
+    width: 200px;
+    position: relative;
+    top: 60px;
+    left: 10px
+  }
+  .logo__fisy-web{
+    display: none;
+  }
+  .contenedor_contenio_principal{
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 470px){
+  .contenedor-imagen-servicio img{
+    width: 250px;
+  }
+  
+  .contendor-iconos img{
+    width: 35px;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+
+  .contenedor-formulario-logo{
+    padding: 0 1rem;
+  }
+
+  .contenedor-formulario-logo{
+    width: 100%;
+  }
+
+  #formulario-contacto{
+    width: 90%;
+  }
+
+  .form__textarea{  
+   max-width: 202px;
   }
 }
 
