@@ -208,7 +208,7 @@ footer{
     display: flex;
     flex-direction: row-reverse;
     position: fixed;
-    z-index: 1;
+    z-index: 9;
     background-color: #021D49;
   }
 
