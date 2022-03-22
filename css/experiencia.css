@@ -160,8 +160,43 @@ background-repeat: no-repeat;
 }
 
 @media (max-width: 900px) {
+  .home__portrait {
+    height: 100vh;
+    overflow-y:hidden;
+  }
+
   .experiencia__branch-small-img {
     width: 150%;
     margin-left: 100px;
+  }
+
+  .experience__description-container {
+    width:80%;
+  }
+
+  .experience__description-title {
+    font-size: 15px;
+    width: 100%;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .experience__description-description {
+    font-size: 12px;
+  }
+
+  .experiencia__contact-links {
+    padding: 5px 0px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:flex-start;
+  }
+
+  .experience__article {
+    width: 100vw;
+    overflow-x: hidden;
   }
 }
