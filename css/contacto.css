@@ -79,11 +79,13 @@ h1{
 }
 
 .form__textarea{
+  resize: vertical;
   display: block;
   border-style: none;
-  max-width: 80%;
+  width: 80%;
   border-radius: 8px;
-  max-height: 4rem;
+  max-height: 8rem;
+  min-height: 3rem;
 }
 
 .submit__btn-contacto{

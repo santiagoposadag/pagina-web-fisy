@@ -39,9 +39,9 @@ body {
 }
 
 .experience__go-down-btn:hover {
-  border: 1px solid #02388a;
+  outline: 1px solid #02388a;
 
-  bottom: -60px;
+  /* bottom: -60px; */
   transition: all 1s ease;
 }
 

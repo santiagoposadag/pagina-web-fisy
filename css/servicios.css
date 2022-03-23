@@ -90,6 +90,17 @@ h1{
   width: 80%;
   margin: auto;
 }
+
+.card-description-item {
+  text-align: left;
+  width: 70%;
+  margin: auto;
+}
+
+.card-bold__text {
+  font-weight: bold;
+}
+
 .carta__precio{
   text-align: center;
 }

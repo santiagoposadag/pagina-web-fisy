@@ -1,101 +1,161 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Home page of Fisy group marketing experts">
-  <meta name="keywords" content="marketing, seo, social, media, expert, fisy">
-  <meta name="author" content="Santaigo Posada Garcia">
-  <meta name="copyright" content="Fisy Group">
-  <meta name="robots" content="index">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;800&display=swap" rel="stylesheet">
-  <link href="https://allfont.es/allfont.css?fonts=franklin-gothic-demi-cond" rel="stylesheet" type="text/css" />
-  <script
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Home page of Fisy group marketing experts"
+    />
+    <meta
+      name="keywords"
+      content="marketing, seo, social, media, expert, fisy"
+    />
+    <meta name="author" content="Santaigo Posada Garcia" />
+    <meta name="copyright" content="Fisy Group" />
+    <meta name="robots" content="index" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://allfont.es/allfont.css?fonts=franklin-gothic-demi-cond"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script
       src=" https://kit.fontawesome.com/927fa126a7.js"
       crossorigin="anonymous"
       async
     ></script>
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <link rel="stylesheet" href="./css/index.css" />
-  <link rel="stylesheet" href="./css/somos.css" />
-  <link rel="stylesheet" href="./css/experiencia.css" />
-  <link rel="stylesheet" href="./css/normalize.css" />
-  <link rel="stylesheet" href="./css/servicios.css">
-  <link rel="stylesheet" href="./css/contacto.css">
-  <title>Contacto</title>
-</head>
-<body>
-  <div class="mobile-navbar__background">
-  </div>
-  <nav class="home__navbar somos__navbar contacto__navbar servicios__navbar">
-    <section class="home__navbar-links">
-      <a class="home__navbar-link contacto__navbar-link" href="./index.html">Home</a>
-      <a class="home__navbar-link contacto__navbar-link" href="./somos.html">Somos</a>
-      <a class="home__navbar-link contacto__navbar-link" href="./sevicios.html">Servicios</a>
-      <a class="home__navbar-link contacto__navbar-link" href="./experiencia.html">Experiencia</a>
-      <a class="home__navbar-link contacto__navbar-link home__navbar-link-active" href="./contacto.html">Contacto</a>
-    </section>
-  </nav>
-  <nav class="mobile__nav">
-    <div class="contenedor__menu-rayas">
-      <i class="fas fa-bars mobile__nav-icon"></i>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/somos.css" />
+    <link rel="stylesheet" href="./css/experiencia.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/servicios.css" />
+    <link rel="stylesheet" href="./css/contacto.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <div class="mobile-navbar__background"></div>
+    <nav class="home__navbar somos__navbar contacto__navbar servicios__navbar">
+      <section class="home__navbar-links">
+        <a class="home__navbar-link contacto__navbar-link" href="./index.html"
+          >Home</a
+        >
+        <a class="home__navbar-link contacto__navbar-link" href="./somos.html"
+          >Somos</a
+        >
+        <a
+          class="home__navbar-link contacto__navbar-link"
+          href="./sevicios.html"
+          >Servicios</a
+        >
+        <a
+          class="home__navbar-link contacto__navbar-link"
+          href="./experiencia.html"
+          >Experiencia</a
+        >
+        <a
+          class="home__navbar-link contacto__navbar-link home__navbar-link-active"
+          href="./contacto.html"
+          >Contacto</a
+        >
+      </section>
+    </nav>
+    <nav class="mobile__nav">
+      <div class="contenedor__menu-rayas">
+        <i class="fas fa-bars mobile__nav-icon"></i>
+      </div>
+    </nav>
+    <div class="titulo__mobil">
+      <h3>Contacto</h3>
     </div>
-  </nav>
-  <div class="titulo__mobil">
-    <h3>Contacto</h3>
-  </div>
-  <div class="contenedor_principal">
-    <img class="logo__fisy-mobile" src="./assets/logo/2.png" alt="logo-fisy">
-    <div class="contenedor_contenio_principal">
-      <div class="contenedor-formulario-logo">
-        <img class="logo__fisy-web" src="./assets/logo/2.png" alt="logo-fisy">
-        <div class="contenedor-formulario">
-          <h1>Contáctanos</h1>
-          <form id="formulario-contacto">
-            <label class="form__label" for="nombre">Nombre</label>
-            <input class="form__input" type="text" name="nombre">
-            <label class="form__label" for="numero">Número</label>
-            <input class="form__input" type="text" name="numero">
-            <label class="form__label" for="correo">Correo</label>
-            <input class="form__input" type="text" name="correo">
-            <label class="form__label" for="comentario">Comentario</label>
-            <textarea class="form__textarea" name="comentario"></textarea>
-            <button class="submit__btn-contacto">Enviar</button>
-          </form>
+    <div class="contenedor_principal">
+      <img
+        class="logo__fisy-mobile"
+        src="./assets/logo/2.png"
+        alt="logo-fisy"
+      />
+      <div class="contenedor_contenio_principal">
+        <div class="contenedor-formulario-logo">
+          <img
+            class="logo__fisy-web"
+            src="./assets/logo/2.png"
+            alt="logo-fisy"
+          />
+          <div class="contenedor-formulario">
+            <h1>Contáctanos</h1>
+            <form
+              method="post"
+              action="https://formsubmit.co/Centralfisy@gmail.com"
+              id="formulario-contacto"
+            >
+              <label class="form__label" for="nombre">Nombre</label>
+              <input class="form__input" type="text" name="nombre" required />
+              <label class="form__label" for="numero">Número</label>
+              <input class="form__input" type="text" name="numero" required />
+              <label class="form__label" for="correo">Correo</label>
+              <input class="form__input" type="text" name="correo" required />
+              <label class="form__label" for="comentario">Comentario</label>
+              <textarea
+                class="form__textarea"
+                name="comentario"
+                required
+              ></textarea>
+              <input
+                type="hidden"
+                name="_next"
+                value="https://santiagoposadag.github.io/pagina-web-fisy/"
+              />
+              <button type="submit" class="submit__btn-contacto">Enviar</button>
+            </form>
+          </div>
+        </div>
+        <div class="contenedor__servicio-logos">
+          <div class="contenedor-imagen-servicio">
+            <img
+              src="./assets/servicio-al-cliente/1.png"
+              alt="imagen-servicio-al-cliente"
+            />
+          </div>
+          <div class="contendor-iconos">
+            <img src="./assets/iconos/1.png" alt="icono-wpp" />
+            <img src="./assets/iconos/3.png" alt="icono-instagram" />
+            <img src="./assets/iconos/5.png" alt="icono-facebook" />
+          </div>
         </div>
       </div>
-      <div class="contenedor__servicio-logos">
-        <div class="contenedor-imagen-servicio">
-          <img src="./assets/servicio-al-cliente/1.png" alt="imagen-servicio-al-cliente">
-        </div>
-        <div class="contendor-iconos">
-          <img src="./assets/iconos/1.png" alt="icono-wpp">
-          <img src="./assets/iconos/3.png" alt="icono-instagram">
-          <img src="./assets/iconos/5.png" alt="icono-facebook">
-        </div>
-      </div>
     </div>
-  </div>
-  <footer>
-    <div class="servicos__footer-contender">
-      <div class="footer__email footer__img-letters">
-        <img src="./assets/iconos/7.png" alt="email">
-        <p>Centralfisy@gmail.com</p>
+    <footer>
+      <div class="servicos__footer-contender">
+        <div class="footer__email footer__img-letters">
+          <img src="./assets/iconos/7.png" alt="email" />
+          <p class="contact-item__text">Centralfisy@gmail.com</p>
+        </div>
+        <a
+          href="https://api.whatsapp.com/send?phone=573027140813&text=Saludos,%20me%20gustaría%20tener%20información%20de%20sus%20servicios."
+          target="_blank"
+          class="footer__wpp footer__img-letters"
+        >
+          <img src="./assets/iconos/1.png" alt="wpp" />
+          <p class="contact-item__text">3027140813</p>
+        </a>
+        <a
+          href="https://www.google.com/maps/@6.2640545,-75.5672637,15z?hl=es-ES"
+          target="_blank"
+          class="footer__ubicacion footer__img-letters"
+        >
+          <img src="./assets/iconos/8.png" alt="ubicacion" />
+          <p class="contact-item__text">Medellín</p>
+        </a>
       </div>
-      <div class="footer__wpp footer__img-letters">
-        <img src="./assets/iconos/1.png" alt="wpp">
-        <p>3027140813</p>
-      </div>
-      <div class="footer__ubicacion footer__img-letters">
-        <img src="./assets/iconos/8.png" alt="ubicacion">
-        <p>Medellín</p>
-      </div>
-    </div>
-  </footer>
-  <script src="./js/app.js" type="module"></script>
-   <script src="./js/responsiveNavbar.js"></script>
-</body>
+    </footer>
+    <script src="./js/app.js" type="module"></script>
+    <script src="./js/responsiveNavbar.js"></script>
+  </body>
 </html>
