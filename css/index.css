@@ -200,9 +200,18 @@ body {
 }
 
 .home__contact-link {
-  display: inline-block;
-  position: relative;
-  z-index: 10000000;
+  display: inline;
+  position: fixed;
+  bottom: 20px;
+  left: 90%;
+}
+
+.home__contact-link-img{
+  width: 4rem;
+}
+
+.home__contact-link-img:hover{
+  cursor: pointer;
 }
 
 .home__contact-description {
@@ -266,5 +275,42 @@ body {
   .home__logo-description {
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .home__contact-link {
+    display: inline;
+    position: fixed;
+    bottom: 10px;
+    left: 90%;
+  }
+  
+  .home__contact-link-img{
+    width: 4rem;
+  }
+}
+
+@media (max-width: 680px){
+  .home__contact-link {
+    display: inline;
+    position: fixed;
+    bottom: 10px;
+    left: 85%;
+  }
+  
+  .home__contact-link-img{
+    width: 4rem;
+  }
+}
+
+@media (max-width: 420px){
+  .home__contact-link {
+    display: inline;
+    position: fixed;
+    bottom: 10px;
+    left: 80%;
+  }
+  
+  .home__contact-link-img{
+    width: 4rem;
   }
 }
