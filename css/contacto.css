@@ -23,6 +23,7 @@ h1{
 }
 
 .logo__fisy-mobile{
+  margin: auto;
   display: none;
 }
 
@@ -164,6 +165,7 @@ footer{
 
   #formulario-contacto{
     width: 90%;
+    margin: auto;
   }
 
   .form__textarea{  

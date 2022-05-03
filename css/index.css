@@ -264,9 +264,6 @@ body {
     width: 200px;
   }
 
-  .home__contact-link{
-    width: 100%;
-  }
 
   .home__contact-title{
     font-size: 2rem;
@@ -311,6 +308,6 @@ body {
   }
   
   .home__contact-link-img{
-    width: 4rem;
+    width: 3.2rem;
   }
 }
