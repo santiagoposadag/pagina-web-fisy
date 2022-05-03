@@ -41,7 +41,6 @@
 .somos__somos-description-container {
   position: absolute;
   top: 15%;
-  left: 6%;
   width: 60%;
   left: 20%;
   color: #fff;
@@ -49,7 +48,7 @@
 
 .somos__branch-large-img {
   width: 30%;
-  margin: auto 35%;
+  margin: auto;
   margin-bottom: -40px;
 }
 
@@ -92,6 +91,7 @@
 @media (max-width: 900px) {
   .somos__somos-description-container {
     width: 70%;
+    left: 15%;
     margin: auto;
     font-size: 13px;
   }
@@ -113,13 +113,11 @@
 
   .somos__branch-large-img {
     width: 60%;
-    margin-bottom: -60px;
   }
 
   #somos__description {
     text-align: center;
     display: block;
-    margin-bottom: 3rem;
   }
 
   .somos__portrait{
